@@ -1,0 +1,13 @@
+{
+  "name": "local/my-2fa-app",
+  "description": "Minimal TOTP 2FA demo (SQLite + Sonata GoogleAuthenticator)",
+  "require": {
+    "php": ">=8.0",
+    "sonata-project/google-authenticator": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
